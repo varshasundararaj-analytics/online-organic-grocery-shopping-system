@@ -1,0 +1,39 @@
+@media(max-width:991px){
+
+    .navbar-header{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .main-header h1{
+        font-size:28px;
+    }
+
+    .box-img-hover img{
+        height:200px;
+    }
+}
+
+@media(max-width:767px){
+
+    .main-top{
+        text-align:center;
+    }
+
+    .noo-sh-title-top{
+        font-size:28px;
+    }
+
+    .all-title-box h2{
+        font-size:28px;
+    }
+
+    .main-instagram .item{
+        width:45%;
+    }
+
+    .filter-button-group button{
+        width:90%;
+        max-width:280px;
+    }
+}

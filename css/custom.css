@@ -1,0 +1,413 @@
+/* =========================
+   LIVIN FRESH CUSTOM STYLES
+   ========================= */
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#333;
+}
+
+h1,h2,h3,h4{
+    font-weight:600;
+}
+
+img{
+    max-width:100%;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    opacity:.9;
+}
+
+
+/* =========================
+   SIMPLE HEADER - ABOUT PAGE
+   ========================= */
+
+.simple-header{
+    background:#fff;
+    border-bottom:1px solid #ddd;
+    padding:12px 0;
+}
+
+.simple-header-inner{
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 20px;
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.simple-logo{
+    width:75px;
+    height:75px;
+    object-fit:contain;
+}
+
+.simple-header h1{
+    margin:0;
+    color:#2f6b2f;
+    font-size:28px;
+}
+
+.simple-nav{
+    margin-left:auto;
+    display:flex;
+    gap:24px;
+    align-items:center;
+}
+
+.simple-nav a{
+    color:#333;
+    font-size:16px;
+    font-weight:600;
+}
+
+.simple-nav a:hover{
+    color:#7faa3d;
+}
+
+
+/* =========================
+   OLD HEADER - GALLERY PAGE
+   ========================= */
+
+.main-top{
+    background:#222;
+    color:#fff;
+    padding:7px 0;
+    font-size:13px;
+}
+
+.main-top .container-fluid{
+    max-width:1200px;
+    margin:auto;
+}
+
+.main-top .row{
+    display:flex;
+    align-items:center;
+}
+
+.right-phone-box p{
+    margin:0;
+}
+
+.offer-box{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.offer-box li{
+    display:none;
+}
+
+.offer-box li:first-child{
+    display:block;
+}
+
+.main-header{
+    background:#fff;
+    border-bottom:1px solid #ddd;
+}
+
+.main-header .navbar{
+    padding:8px 0;
+}
+
+.navbar-header{
+    display:flex;
+    align-items:center;
+    min-height:80px;
+}
+
+.logo img{
+    width:80px;
+    height:auto;
+}
+
+.main-header h1{
+    font-size:27px;
+    margin:0 0 0 18px;
+    color:#2f6b2f;
+}
+
+.top-search{
+    display:none;
+}
+
+
+/* =========================
+   PAGE TITLE
+   ========================= */
+
+.all-title-box{
+    background:#7faa3d;
+    color:#fff;
+    padding:20px 0;
+    text-align:center;
+}
+
+.all-title-box h2{
+    margin:0;
+    font-size:32px;
+}
+
+.breadcrumb{
+    list-style:none;
+    margin:8px 0 0;
+    padding:0;
+}
+
+
+/* =========================
+   ABOUT PAGE
+   ========================= */
+
+.about-box-main{
+    padding:45px 0;
+}
+
+.banner-frame img{
+    width:100%;
+    max-height:430px;
+    object-fit:cover;
+    border-radius:6px;
+}
+
+.noo-sh-title-top{
+    font-size:32px;
+    margin-top:0;
+}
+
+.noo-sh-title-top span{
+    color:#7faa3d;
+}
+
+.about-box-main p{
+    line-height:1.7;
+    color:#555;
+}
+
+.service-block-inner{
+    background:#f7f7f7;
+    border:1px solid #ddd;
+    padding:20px;
+    min-height:150px;
+    margin-top:15px;
+}
+
+.service-block-inner h3{
+    color:#7faa3d;
+}
+
+
+/* =========================
+   INSTAGRAM
+   ========================= */
+
+.instagram-box{
+    background:#f5f5f5;
+    padding:30px 0;
+}
+
+.main-instagram{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+}
+
+.main-instagram .item{
+    width:150px;
+}
+
+.ins-inner-box img{
+    width:100%;
+    height:125px;
+    object-fit:cover;
+}
+
+
+/* =========================
+   GALLERY
+   ========================= */
+
+.products-box{
+    padding:35px 0;
+}
+
+.title-all{
+    margin-bottom:20px;
+}
+
+.title-all h1{
+    font-size:32px;
+    margin-bottom:8px;
+}
+
+.title-all p{
+    color:#555;
+}
+
+.special-menu{
+    margin:20px 0 30px;
+}
+
+.filter-button-group button{
+    border:none;
+    padding:10px 18px;
+    margin:5px;
+    background:#333;
+    color:#fff;
+    cursor:pointer;
+    border-radius:3px;
+    font-size:15px;
+}
+
+.filter-button-group button.active,
+.filter-button-group button:hover{
+    background:#7faa3d;
+}
+
+.products-box .special-list{
+    display:grid !important;
+    grid-template-columns:repeat(4,1fr) !important;
+    gap:22px !important;
+    width:100% !important;
+    margin:0 !important;
+}
+
+.products-box .special-grid{
+    width:100% !important;
+    max-width:100% !important;
+    padding:0 !important;
+    margin:0 !important;
+}
+
+.products-box .products-single{
+    width:100% !important;
+    height:280px !important;
+    overflow:hidden;
+    border:1px solid #ddd;
+    background:#fff;
+    padding:10px;
+    box-sizing:border-box;
+    transition:transform .2s ease;
+}
+
+.products-box .products-single:hover{
+    transform:translateY(-3px);
+}
+
+.products-box .box-img-hover{
+    position:relative;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.products-box .box-img-hover img{
+    width:100% !important;
+    height:100% !important;
+    object-fit:cover !important;
+    display:block;
+}
+
+.type-lb{
+    position:absolute;
+    top:10px;
+    left:10px;
+    z-index:2;
+}
+
+.sale{
+    background:#7faa3d;
+    color:#fff;
+    padding:6px 12px;
+    margin:0;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+.footer-main{
+    background:#222;
+    color:#ddd;
+    padding:40px 0;
+}
+
+.footer-main h3,
+.footer-main h4{
+    color:#fff;
+}
+
+.footer-main a{
+    color:#9ad25a;
+}
+
+.footer-link-contact ul{
+    list-style:none;
+    padding:0;
+}
+
+.side{
+    display:none;
+}
+
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media(max-width:992px){
+
+    .products-box .special-list{
+        grid-template-columns:repeat(2,1fr) !important;
+    }
+
+    .simple-header-inner{
+        flex-wrap:wrap;
+    }
+
+    .simple-nav{
+        width:100%;
+        margin-left:0;
+    }
+}
+
+@media(max-width:576px){
+
+    .products-box .special-list{
+        grid-template-columns:1fr !important;
+    }
+
+    .products-box .products-single{
+        height:260px !important;
+    }
+
+    .simple-header-inner{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .simple-nav{
+        flex-wrap:wrap;
+        gap:12px;
+    }
+
+    .filter-button-group button{
+        display:block;
+        width:90%;
+        margin:8px auto;
+    }
+}

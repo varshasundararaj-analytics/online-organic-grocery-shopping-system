@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7faf7;
+}
+
+
+.gallery-title {
+
+    background: #245c34;
+
+    color: white;
+
+    padding: 55px 20px;
+}
+
+
+.gallery-title h2 {
+
+    font-size: 40px;
+
+    font-weight: bold;
+}
+
+
+.gallery-title p {
+
+    margin-top: 10px;
+
+    font-size: 18px;
+}
+
+
+.products-section {
+
+    padding: 60px 20px;
+}
+
+
+.filter-btn {
+
+    border: 1px solid #2d6a4f;
+
+    background: white;
+
+    color: #2d6a4f;
+
+    padding: 9px 18px;
+
+    margin: 5px;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+
+.filter-btn:hover,
+.filter-btn.active {
+
+    background: #2d6a4f;
+
+    color: white;
+}
+
+
+.product-card {
+
+    background: white;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 3px 12px rgba(0,0,0,.12);
+
+    transition: 0.25s;
+}
+
+
+.product-card:hover {
+
+    transform: translateY(-5px);
+}
+
+
+.product-image {
+
+    height: 180px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-weight: bold;
+
+    font-size: 18px;
+
+    color: #244229;
+}
+
+
+.product-card p {
+
+    margin: 0;
+
+    padding: 15px;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+
+
+.bulbs-bg {
+
+    background:
+        linear-gradient(
+            135deg,
+            #ead7b7,
+            #d3b683
+        );
+}
+
+
+.fruits-bg {
+
+    background:
+        linear-gradient(
+            135deg,
+            #ffe3a3,
+            #ffbd59
+        );
+}
+
+
+.podded-bg {
+
+    background:
+        linear-gradient(
+            135deg,
+            #c7e9b4,
+            #7bc47f
+        );
+}
+
+
+.root-bg {
+
+    background:
+        linear-gradient(
+            135deg,
+            #e5c2a5,
+            #bc8f6f
+        );
+}

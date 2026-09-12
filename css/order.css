@@ -1,0 +1,100 @@
+body,
+html {
+
+    height: 100%;
+
+    margin: 0;
+
+    font:
+        400
+        15px/1.8
+        "Lato",
+        sans-serif;
+
+    color: #777;
+}
+
+
+.bgimg-1 {
+
+    position: relative;
+
+    height: 100%;
+
+    background:
+        linear-gradient(
+            rgba(20,60,30,.55),
+            rgba(20,60,30,.55)
+        ),
+        linear-gradient(
+            135deg,
+            #7fb069,
+            #315c2b
+        );
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+
+.caption {
+
+    position: absolute;
+
+    left: 0;
+
+    top: 45%;
+
+    width: 100%;
+
+    text-align: center;
+
+    color: #000;
+}
+
+
+.caption span.border {
+
+    display: inline-block;
+
+    max-width: 850px;
+
+    background-color: #111;
+
+    color: white;
+
+    padding: 18px;
+
+    font-size: 25px;
+
+    letter-spacing: 6px;
+
+    line-height: 1.8;
+}
+
+
+.buttons {
+
+    margin-top: 35px;
+}
+
+
+.buttons a {
+
+    display: inline-block;
+
+    padding: 12px 25px;
+
+    background: white;
+
+    color: #1b4332;
+
+    text-decoration: none;
+
+    border-radius: 4px;
+
+    font-weight: bold;
+}
