@@ -165,7 +165,7 @@ The reconstruction process also provided an opportunity to revisit the original 
 ### Login / Sign Up
 
 ![Login](screenshots/01-login.png)
-![Sign Up](screenshots/02-sign%@20up.png)
+![Sign Up](screenshots/02-sign%20up.png)
 
 ### Home Page
 
