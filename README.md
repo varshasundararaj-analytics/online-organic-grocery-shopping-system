@@ -164,7 +164,8 @@ The reconstruction process also provided an opportunity to revisit the original 
 
 ### Login / Sign Up
 
-![Login and Sign Up](screenshots/01-login.png, 02-signup.png)
+![Login](screenshots/01-login.png)
+![Sign Up](screenshots/02-sign%@20up.png)
 
 ### Home Page
 
@@ -180,11 +181,14 @@ The reconstruction process also provided an opportunity to revisit the original 
 
 ### Shopping Cart
 
-![Shopping Cart](screenshots/06-cart.png,07-cart confirm order)
+![Shopping Cart](screenshots/06-cart.png)
+![Cart Confirm Order](screenshots/07-cart%20confirm%20order.png)
 
 ### Checkout
 
-![Checkout](screenshots/08-checkout.png,09-checkout sample)
+![Checkout](screenshots/08-checkout.png)
+![Checkout Sample](screenshots/09-checkout%20sample.png)
+
 
 ### Order Confirmation
 
